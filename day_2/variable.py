@@ -1,22 +1,14 @@
 first_name = "Ankit"
-
 last_name = "Kumar"
-
 full_name = "Ankit Kumar"
-
 country = "India"
-
 city = "Delhi"
-
 age = 23
-
 year = 2026
-
 is_married = False
-
 is_true = True
-
 is_light = True
+
 
 FirstName, LastName, FullName, Country, City, Age, Year, IsMarried, IsTrue, IsLight = "Ankit", "Kumar", "Ankit Kumar", "India", "Delhi", 23, 2026, False, True, True;
 
@@ -82,17 +74,11 @@ num_two = 4
 
 
 total = num_one + num_two
-
 diff = num_one - num_two
-
 product = num_one * num_two
-
 division = num_one / num_two
-
 remainder = num_two % num_one
-
 exp = num_one ** num_two
-
 floor_division = num_one // num_two
 
 print(total)
@@ -104,12 +90,13 @@ print(exp)
 print(floor_division)
 
 
+
+
 import math
 
 radius = 30
 
 area_of_circle = math.pi * (radius ** 2)
-
 circum_of_circle = 2 * math.pi * radius 
 
 print(area_of_circle, circum_of_circle)
@@ -122,11 +109,10 @@ print(area_of_circle, circum_of_circle)
 Radius = float(input("Enter the Radius of the Circle"))
 
 Area_of_cicle = math.pi * (Radius ** 2)
-
 Circum_of_circle = 2 * math.pi * Radius
 
-
 print(Area_of_cicle, Circum_of_circle)
+
 
 
 First_Name = str(input("Tell us your First Name"))
@@ -137,8 +123,6 @@ Use_Age = int(input("Tell us your Age"))
 
 print(First_Name, Last_Name, Country_Name, Use_Age)
 
-
 help("keywords")
-
 
 print("You are Good to go")
